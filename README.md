@@ -12,7 +12,7 @@ This project demonstrates:
 
 
 ## Repository Structure
-
+```powershell
 sales-analytics-system/
 │ README.md
 │ main.py
@@ -30,10 +30,7 @@ sales-analytics-system/
 │
 └─ output/
 └─ sales_report.txt # generated (after running)
-
-
-✅ All file paths are **relative** (no hardcoded system paths).
-
+```
 ---
 
 ## Features Overview
