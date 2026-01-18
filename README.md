@@ -212,8 +212,6 @@ Ensure:
     -You run from project root
     -utils/__init__.py exists
 
-
-
 At least 10 meaningful commits
 
 Author Notes
