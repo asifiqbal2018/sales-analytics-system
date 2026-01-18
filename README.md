@@ -14,23 +14,22 @@ This project demonstrates:
 ## Repository Structure
 
 sales-analytics-system/
+│ README.md
+│ main.py
+│ requirements.txt
 │
-├── README.md
-├── main.py
-├── requirements.txt
+├─ utils/
+│ ├─ init.py
+│ ├─ file_handler.py
+│ ├─ data_processor.py
+│ └─ api_handler.py
 │
-├── utils/
-│ ├── init.py
-│ ├── file_handler.py
-│ ├── data_processor.py
-│ └── api_handler.py
+├─ data/
+│ ├─ sales_data.txt # provided input file
+│ └─ enriched_sales_data.txt # generated (after running)
 │
-├── data/
-│ ├── sales_data.txt # Input file (provided)
-│ └── enriched_sales_data.txt # Generated after execution
-│
-└── output/
-└── sales_report.txt # Generated after execution
+└─ output/
+└─ sales_report.txt # generated (after running)
 
 
 ✅ All file paths are **relative** (no hardcoded system paths).
